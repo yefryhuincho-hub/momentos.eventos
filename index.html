@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0710">
+<meta name="description" content="Halloween Party by Momentos. Sábado 31 de octubre en Centro de Convenciones Antonellas, Huancavelica. Compra tu entrada.">
+<title>Halloween Party | Momentos</title>
+<style>
+:root{--bg:#09070d;--panel:#120d19;--line:#35213f;--gold:#ffc34f;--gold2:#ffe19a;--purple:#c45cff;--text:#fff9ff;--muted:#c4b7cc;--max:1180px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:#0a0710df;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff13}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:11px;min-width:180px}
+.brand-mark{font-family:Georgia,serif;font-size:32px;letter-spacing:-4px;color:#fff;line-height:1}
+.brand-mark span{color:var(--gold)}
+.brand-copy{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#d8cbdc;line-height:1.4}
+.navlinks{display:flex;gap:25px;align-items:center;font-size:13px;color:#e4d9e8}
+.navlinks a:hover{color:var(--gold)}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(110deg,var(--gold),var(--gold2));color:#1c1004;font-weight:800;border-radius:999px;padding:14px 23px;box-shadow:0 7px 28px #ffb52b20;transition:transform .2s,filter .2s}
+.cta:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.cta svg{width:17px;height:17px}
+.hero{position:relative;min-height:650px;display:flex;align-items:center;isolation:isolate;overflow:hidden;border-bottom:1px solid #8d45a844}
+.hero:before{content:"";position:absolute;inset:0;z-index:-2;background-image:linear-gradient(90deg,#08060df2 0%,#08060dcf 38%,#08060d33 76%,#08060d66 100%),url("halloween-visual-1.png");background-size:cover;background-position:center 40%}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:140px;z-index:-1;background:linear-gradient(transparent,var(--bg))}
+.hero-content{padding:72px 0 76px;max-width:650px}
+.eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:700}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(58px,8vw,104px);line-height:.88;letter-spacing:-.055em;text-transform:uppercase;margin:22px 0 12px;text-shadow:0 4px 35px #000}
+h1 span{display:block;color:var(--purple);font-family:"Brush Script MT","Segoe Script",cursive;font-size:.8em;letter-spacing:-.04em;font-weight:500;text-transform:none;margin-left:12px}
+.hero-lead{max-width:510px;color:#e3d9e9;font-size:17px;margin:22px 0}
+.event-meta{display:flex;flex-wrap:wrap;gap:12px 24px;margin:28px 0;color:#fff4ff;font-size:14px}
+.meta-item{display:flex;align-items:center;gap:10px}
+.meta-icon{color:var(--gold);font-size:23px}
+.hero-note{font-size:12px;color:#e0d2e7;margin:12px 0 0 8px}
+.quickfacts{border-top:1px solid #54325f;border-bottom:1px solid #54325f;background:linear-gradient(90deg,#0b0811,#160c1e,#0b0811)}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);padding:25px 0}
+.fact{text-align:center;padding:4px 18px;border-right:1px solid #76517d}
+.fact:last-child{border-right:0}
+.fact-icon{font-size:29px;color:var(--gold);margin-bottom:4px}
+.fact strong{display:block;font-size:14px;letter-spacing:.05em;text-transform:uppercase}
+.fact span{font-size:12px;color:var(--muted)}
+section.content{padding:86px 0}
+.section-head{text-align:center;max-width:680px;margin:0 auto 36px}
+.kicker{color:var(--purple);letter-spacing:.25em;text-transform:uppercase;font-size:11px;font-weight:800}
+h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,4vw,49px);line-height:1.08;margin:10px 0 12px}
+.section-head p{color:var(--muted);margin:0}
+.experience-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.experience{min-height:300px;position:relative;overflow:hidden;border:1px solid #4a2b55;border-radius:17px;background:#1b1023;isolation:isolate;display:flex;align-items:end;padding:20px}
+.experience:before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("halloween-visual-2.png");background-size:cover;transition:transform .5s}
+.experience:nth-child(1):before{background-position:12% 62%}
+.experience:nth-child(2):before{background-position:57% 43%}
+.experience:nth-child(3):before{background-position:75% 75%}
+.experience:nth-child(4):before{background-position:96% 85%}
+.experience:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#07040ded 0%,#07040d20 65%)}
+.experience:hover:before{transform:scale(1.06)}
+.experience h3{margin:0;font-size:17px;text-transform:uppercase;letter-spacing:.04em}
+.experience p{margin:4px 0 0;color:#e0d5e7;font-size:12px}
+.experience .num{font-size:11px;color:var(--gold);letter-spacing:.2em}
+.venue{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;border:1px solid #3b2544;border-radius:24px;overflow:hidden;background:linear-gradient(130deg,#170d20,#0c0911)}
+.venue-art{min-height:380px;position:relative;background-image:linear-gradient(0deg,#08060d44,#08060d11),url("halloween-visual-2.png");background-size:cover;background-position:20% 20%}
+.venue-copy{padding:34px 34px 34px 0}
+.venue-copy h2{font-size:38px}
+.address{display:flex;gap:12px;margin:20px 0;color:#e8dfee}
+.pin{color:var(--gold);font-size:24px}
+.venue-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0;color:#d9ccdf;font-size:13px}
+.venue-list span:before{content:"✦";color:var(--gold);margin-right:9px}
+.ticket-band{padding:64px 0;background:radial-gradient(ellipse at 50% 0%,#4b175b88,transparent 65%),linear-gradient(90deg,#100815,#1b0d23,#100815);border-top:1px solid #482450;border-bottom:1px solid #482450;text-align:center}
+.ticket-band h2{font-size:clamp(35px,5vw,56px);margin:10px 0}
+.ticket-band p{color:#d6c6df;margin:0 auto 24px;max-width:570px}
+.price-note{font-size:12px;color:#bcaec5;margin-top:12px}
+footer{padding:30px 0;color:#9c8da7;font-size:12px}
+.foot{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.footnav{display:flex;gap:18px;flex-wrap:wrap}
+@media(max-width:900px){.navlinks{gap:14px}.navlinks a:nth-child(3),.navlinks a:nth-child(4){display:none}.hero{min-height:590px}.hero:before{background-position:58% center}.experience-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.venue{grid-template-columns:1fr}.venue-art{min-height:300px}.venue-copy{padding:0 28px 30px}}
+@media(max-width:620px){.wrap{width:min(100% - 30px,var(--max))}.nav{height:68px}.brand{min-width:0}.brand-mark{font-size:28px}.brand-copy{font-size:8px}.navlinks{display:none}.nav>.cta{padding:11px 14px;font-size:12px}.hero{min-height:630px;align-items:end}.hero:before{background-image:linear-gradient(90deg,#08060ddc,#08060d50),linear-gradient(0deg,#08060df2 0%,#08060d55 70%),url("halloween-visual-1.png");background-position:58% center}.hero-content{padding:100px 0 52px}h1{font-size:clamp(54px,16vw,78px)}.hero-lead{font-size:15px}.event-meta{display:grid;gap:10px}.facts{grid-template-columns:repeat(2,1fr);gap:18px 0;padding:22px 0}.fact{padding:6px 8px}.fact:nth-child(2){border-right:0}.fact:nth-child(-n+2){border-bottom:1px solid #76517d;padding-bottom:18px}.fact:nth-child(n+3){padding-top:18px}.content{padding:58px 0!important}.experience-grid{gap:10px}.experience{min-height:230px;padding:14px}.experience h3{font-size:14px}.experience p{font-size:11px}.venue-art{min-height:230px}.venue-copy{padding:0 20px 24px}.venue-copy h2{font-size:31px}.venue-list{grid-template-columns:1fr}.ticket-band{padding:50px 0}.foot{align-items:flex-start;flex-direction:column}.footnav{gap:13px}.hero-content .cta{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="Momentos, inicio"><span class="brand-mark">M<span>✧</span></span><span class="brand-copy">Momentos<br>Planificación de eventos</span></a>
+    <nav class="navlinks" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a><a href="#evento">El evento</a><a href="#experiencia">Experiencia</a><a href="#ubicacion">Ubicación</a>
+    </nav>
+    <a class="cta" href="https://momentoseventos-pagos.vercel.app/" target="_blank" rel="noopener">Comprar tu entrada <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="wrap hero-content">
+    <div class="eyebrow">Momentos presenta · Halloween 2026</div>
+    <h1>Halloween <span>Party</span></h1>
+    <p class="hero-lead">Una noche para salir de la rutina, vivir la música y dejar que tu mejor disfraz sea parte de la historia.</p>
+    <div class="event-meta">
+      <div class="meta-item"><span class="meta-icon">▦</span><span><strong>Sábado 31 de octubre</strong><br>Una noche, mil momentos</span></div>
+      <div class="meta-item"><span class="meta-icon">⌖</span><span><strong>Centro de Convenciones Antonellas</strong><br>Jr. Torre Tagle 475 · Huancavelica</span></div>
+    </div>
+    <a class="cta" href="https://momentoseventos-pagos.vercel.app/" target="_blank" rel="noopener">Compra tu entrada <span aria-hidden="true">→</span></a>
+    <div class="hero-note">Entrada general S/ 15 · Con cover</div>
+  </div>
+</section>
+<section class="quickfacts" id="evento" aria-label="Lo que te espera">
+  <div class="wrap facts">
+    <div class="fact"><div class="fact-icon">♫</div><strong>DJ en vivo</strong><span>Huancavelica · Huancayo · Lima</span></div>
+    <div class="fact"><div class="fact-icon">♧</div><strong>Concurso de disfraces</strong><span>Creatividad y premios</span></div>
+    <div class="fact"><div class="fact-icon">✺</div><strong>Hora loca</strong><span>Ritmo y sorpresas</span></div>
+    <div class="fact"><div class="fact-icon">✦</div><strong>Ambiente único</strong><span>Céntrico y preparado para celebrar</span></div>
+  </div>
+</section>
+<section class="content" id="experiencia">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">La noche es tuya</div>
+      <h2>Vive una experiencia inolvidable</h2>
+      <p>Música, disfraces, luces y sorpresas en una noche creada para compartir con tus amigos y disfrutar Halloween de una forma diferente.</p>
+    </div>
+    <div class="experience-grid">
+      <article class="experience"><div><div class="num">01 / MÚSICA</div><h3>DJ en vivo</h3><p>Sets para mantener la energía arriba.</p></div></article>
+      <article class="experience"><div><div class="num">02 / DISFRACES</div><h3>Tu mejor versión</h3><p>Participa en el concurso y sorprende.</p></div></article>
+      <article class="experience"><div><div class="num">03 / SORPRESAS</div><h3>Hora loca</h3><p>Un momento para soltarlo todo.</p></div></article>
+      <article class="experience"><div><div class="num">04 / AMBIENTE</div><h3>Una noche especial</h3><p>Luces, puesta en escena y recuerdos.</p></div></article>
+    </div>
+  </div>
+</section>
+<section class="content" id="ubicacion" style="padding-top:0">
+  <div class="wrap venue">
+    <div class="venue-art" role="img" aria-label="Imagen temática de una noche de Halloween con luces y ambiente de fiesta"></div>
+    <div class="venue-copy">
+      <div class="kicker">Nos vemos en Huancavelica</div>
+      <h2>Un lugar céntrico.<br>Una noche diferente.</h2>
+      <div class="address"><span class="pin">⌖</span><span><strong>Centro de Convenciones Antonellas</strong><br>Jr. Torre Tagle 475, Cercado de Huancavelica</span></div>
+      <div class="venue-list"><span>Ubicación céntrica</span><span>Música en vivo</span><span>Concurso de disfraces</span><span>Hora loca y sorpresas</span></div>
+      <a class="cta" href="https://www.google.com/maps/search/?api=1&query=Centro+de+Convenciones+Antonellas+Jr.+Torre+Tagle+475+Huancavelica" target="_blank" rel="noopener">Ver ubicación en Maps ↗</a>
+    </div>
+  </div>
+</section>
+<section class="ticket-band">
+  <div class="wrap">
+    <div class="eyebrow">No te quedes fuera</div>
+    <h2>Tu Halloween empieza aquí.</h2>
+    <p>Reúne a tu grupo, prepara tu disfraz y asegura tu entrada para el sábado 31 de octubre.</p>
+    <a class="cta" href="https://momentoseventos-pagos.vercel.app/" target="_blank" rel="noopener">Comprar entrada · S/ 15 <span aria-hidden="true">→</span></a>
+    <div class="price-note">Entrada general con cover · Compra en línea</div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#inicio"><span class="brand-mark">M<span>✧</span></span><span class="brand-copy">Momentos<br>Planificación de eventos</span></a>
+    <div>© 2026 Momentos · Halloween Party · Huancavelica</div>
+    <nav class="footnav" aria-label="Enlaces del pie"><a href="#evento">El evento</a><a href="#experiencia">Experiencia</a><a href="#ubicacion">Ubicación</a><a href="https://momentoseventos-pagos.vercel.app/" target="_blank" rel="noopener">Comprar entrada</a></nav>
+  </div>
+</footer>
+</body>
+</html>
